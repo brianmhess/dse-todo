@@ -1,24 +1,25 @@
 package com.example.fabrikam.TodoDemo;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+//import javax.persistence.Entity;
+//import javax.persistence.GeneratedValue;
+//import javax.persistence.GenerationType;
+//import javax.persistence.Id;
 
 import org.springframework.data.cassandra.core.mapping.Column;
 import org.springframework.data.cassandra.core.mapping.PrimaryKey;
 import org.springframework.data.cassandra.core.mapping.Table;
 
-@Entity
 @Table(value = "todo")
 public class TodoItem {
 
-    @GeneratedValue(strategy=GenerationType.AUTO)
-    @PrimaryKey("id")
+    //@GeneratedValue(strategy=GenerationType.AUTO)
+    //@PrimaryKey("id")
+    @Column("id")
     private Long id;
     @Column("category")
     private String category;
-    @Column("name")
+    //@Column("name")
+    @PrimaryKey("name")
     private String name;
     @Column("complete")
     private boolean complete;

@@ -5,5 +5,5 @@ CREATE TABLE IF NOT EXISTS demo_sdc.todo(
        category TEXT,
        name TEXT,
        complete BOOLEAN,
-       PRIMARY KEY ((id))
+       PRIMARY KEY ((name))
 );

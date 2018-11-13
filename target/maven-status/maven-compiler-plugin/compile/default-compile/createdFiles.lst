@@ -1,0 +1,6 @@
+com/example/fabrikam/TodoDemo/TodoDemoApplication.class
+com/example/fabrikam/TodoDemo/TodoDemoController.class
+com/example/fabrikam/TodoDemo/TodoItem.class
+com/example/fabrikam/TodoDemo/SpringDataConfiguration.class
+com/example/fabrikam/TodoDemo/TodoItemRepository.class
+com/example/fabrikam/TodoDemo/TodoListViewModel.class
