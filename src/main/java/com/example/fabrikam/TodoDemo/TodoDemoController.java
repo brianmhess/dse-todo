@@ -41,4 +41,15 @@ public class TodoDemoController {
         }
         return "redirect:/";
     }
+
+    @RequestMapping("/category")
+    public String category(Model model) {
+        ArrayList<TodoItem> todoList = (ArrayList<TodoItem>) repository.findByCategory("Home");
+        //model.addAttribute("items", todoList);
+        model.addAttribute("newitem", new TodoItem());
+        model.addAttribute("items", new TodoListViewModel(todoList));
+        //return "index";
+	return todoList.toString();
+    }
+
 }
