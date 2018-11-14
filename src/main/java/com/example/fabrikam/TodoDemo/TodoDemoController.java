@@ -3,11 +3,14 @@ package com.example.fabrikam.TodoDemo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.PathVariable;
 
-import java.util.ArrayList;
+import java.util.*;
 
 @Controller
 public class TodoDemoController {
@@ -41,15 +44,4 @@ public class TodoDemoController {
         }
         return "redirect:/";
     }
-
-    @RequestMapping("/category")
-    public String category(Model model) {
-        ArrayList<TodoItem> todoList = (ArrayList<TodoItem>) repository.findByCategory("Home");
-        //model.addAttribute("items", todoList);
-        model.addAttribute("newitem", new TodoItem());
-        model.addAttribute("items", new TodoListViewModel(todoList));
-        //return "index";
-	return todoList.toString();
-    }
-
 }
