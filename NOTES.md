@@ -7,7 +7,7 @@ This repo demonstrates a few things:
 3. Pivotal Cloud Foundry (PCF) and connecting to a Custom User-Provided Service (CUPS)
 
 ## Configuration
-To run you need a DSE cluster.  The contact points for that cluster are stored in the src/main/resources/application.properties file.
+To run you need a DSE cluster.  The contact points for that cluster are stored in the `src/main/resources/application.properties` file.
 
 If you are running without PCF, you can just edit the dse.contactPoints parameter with the contact points for the DSE cluster.
 
@@ -15,10 +15,13 @@ If you are running with PCF, you can do the same as above (hard-code the contact
 parameters (and others, if you like).  I did this via PCF-DEV and a CUPS service.
 
 ## Running the application without PCF
+Make sure that the `dse.connectionPoints` value in `src/main/resources/application.properties` is set to the IP address of DSE.
 Once you build the application with `mvn clean package`, you can start the app via `java -jar target/TodoDemo-0.0.1-SNAPSHOT.jar`.
 You can now access the ToDo app via the webpage at `http://localhost:8222/` and the REST API via `http://localhost:8222/rest/`.
 
 ## PCF-DEV and CUPS Setup
+Make sure that the `dse.connectionPoints` value in `src/main/resources/application.properties` is set to the service variable.  In this
+case it would be `vcap.services.dsecups.credentials.contact_points`.
 The steps in PCF-DEV are as follows:
 1. Download and install PCF-DEV
 2. Run `cf dev start`
