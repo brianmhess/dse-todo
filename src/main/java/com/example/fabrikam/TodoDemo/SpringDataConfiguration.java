@@ -66,11 +66,21 @@ public class SpringDataConfiguration extends AbstractCassandraConfiguration {
 
 @Configuration
 public class SpringDataConfiguration extends AbstractCassandraConfiguration {
+    @Value("${dse.contactPoints}")
+    public String contactPoints;
+
+    @Value("${dse.port}")
+    private int port;
+
+    @Value("${dse.keyspace}")
+    private String keySpace;
+    
+
     public String getContactPoints() {
-	return "node0";
+	return contactPoints;
     }
 
     public String getKeyspaceName() {
-	return "demo_sdc";
+	return keySpace;
     }
 }
