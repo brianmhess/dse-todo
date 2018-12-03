@@ -59,6 +59,8 @@ To set the properties correctly, we need to set the following:
 * `vcap.services.dsecups.credentials.keystore2=<BASE64 encoded keystore continued - remainder of keystore>`
 * `vcap.services.dsecups.credentials.key_password=<keystore password>`
 
+To BASE64-encode the keystore/truststore files, you can use a tool like `https://www.browserling.com/tools/file-to-base64`
+
 ### Running without PCF
 * Compile and build with `mvn clean package`.
 * Run with `java -jar target/TodoDemo-0.0.1-SNAPSHOT.jar`

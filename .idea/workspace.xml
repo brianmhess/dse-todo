@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d64103d-6009-428e-a8e1-eaa45d28b144" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hessian/example/TodoDemo/DseTodoConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hessian/example/TodoDemo/TodoItemRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fabrikam/TodoDemo/SpringDataConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fabrikam/TodoDemo/TodoDemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hessian/example/TodoDemo/TodoDemoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fabrikam/TodoDemo/TodoDemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hessian/example/TodoDemo/TodoDemoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fabrikam/TodoDemo/TodoDemoRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hessian/example/TodoDemo/TodoDemoRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fabrikam/TodoDemo/TodoItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hessian/example/TodoDemo/TodoItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fabrikam/TodoDemo/TodoItemRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fabrikam/TodoDemo/TodoListViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hessian/example/TodoDemo/TodoListViewModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/fabrikam/TodoDemo/TodoDemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hessian/example/TodoDemo/TodoDemoApplicationTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,7 +46,7 @@
         <counts>
           <entry key="dummy" value="20" />
           <entry key="java" value="3222" />
-          <entry key="md" value="1628" />
+          <entry key="md" value="1726" />
           <entry key="properties" value="375" />
           <entry key="xml" value="15" />
           <entry key="yml" value="1" />
@@ -66,7 +55,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="3222" />
-          <entry key="Markdown" value="1628" />
+          <entry key="Markdown" value="1726" />
           <entry key="PLAIN_TEXT" value="20" />
           <entry key="Properties" value="375" />
           <entry key="XML" value="15" />
@@ -200,8 +189,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1275">
-                <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
+              <first_editor relative-caret-position="833">
+                <caret line="61" column="121" selection-start-line="61" selection-start-column="121" selection-end-line="61" selection-end-column="121" />
               </first_editor>
               <second_editor />
             </state>
@@ -407,12 +396,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543534219168</updated>
-      <workItem from="1543534264481" duration="22818000" />
+      <workItem from="1543534264481" duration="23102000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22818000" />
+    <option name="totallyTimeSpent" value="23102000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -623,8 +612,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1275">
-            <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
+          <first_editor relative-caret-position="833">
+            <caret line="61" column="121" selection-start-line="61" selection-start-column="121" selection-end-line="61" selection-end-column="121" />
           </first_editor>
           <second_editor />
         </state>
